@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+max-width: 1440px;
+margin: 0 auto;
+padding: 0 100px;
+
+}
+
+
+header{
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.header-right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.form-wrapper{
+    padding: 50px;
+    margin: 50px auto;
+    width: 650px;
+   border-radius: 50px;
+   border: 1px solid gray;
+}
+
+.form-title{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form-text{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.form-text h3 {
+color: #F0400F;
+}
+
+.title{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 48px;
+    color:  #0E0D5D;
+
+}
+.form-oquvchi{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#F5F5F5;
+    padding: 5px;
+    border-radius: 10px;
+}
+.oquvchi button {
+    cursor: pointer;
+    width: 255px;
+    padding: 8px 0;
+    border: none;
+    font-size: 28px;
+    border-radius: 10px;
+}
+
+.ota-ona button {
+    cursor: pointer;
+width: 255px;
+padding: 8px 0;
+border: none;
+background-color: transparent;
+font-size: 28px;
+}
+
+.form-tel{
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+width: 100%;
+padding: 20px;
+
+
+}
+
+.form-tel::placeholder{
+    font-size: 24px;
+}
+
+.qr-code{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.button-finish{
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+}
+
+.button-finish button {
+    background-color:  #F69E86;
+    color: white;
+    width: 202px;
+    padding: 20px 0;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+}
